@@ -102,8 +102,9 @@ const numbersPad = ref<NumberPad[]>([
         <input
           id="calculator-input"
           ref="calculatorInput"
-          v-model="tipState.model"
+          v-model.number="tipState.model"
           type="number"
+          :min="0"
         />
         <icon
           name="co-delete"
@@ -162,7 +163,7 @@ const numbersPad = ref<NumberPad[]>([
       outline: none;
       border-bottom: 1px #000 solid;
       background: #ffffff00;
-      padding: 8px 20px;
+      padding: 8px 30px;
       text-align: right;
       font-size: 20px;
       width: 100%;
