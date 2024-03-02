@@ -1,0 +1,62 @@
+$primary: #ed6959;
+$primary-light: rgba(253, 111, 95, 0.486);
+$secondary: #858585;
+$success: #3471eb;
+$warning: #f4e42b;
+$light: #d2d3d4;
+$white: #ffffff;
+$light-thin: #e0e0e0;
+.text-sm {
+  font-size: 10px;
+}
+.text-base {
+  font-size: 14px;
+}
+.text-lg {
+  font-size: 18px;
+}
+.text-xl {
+  font-size: 22px;
+}
+.text-2xl {
+  font-size: 26px;
+}
+.text-4xl {
+  font-size: 36px;
+}
+.text-right {
+  text-align: right;
+}
+.bold {
+  font-weight: 600;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.w-full{
+  width: 100%;
+}
+.h-full{
+  height: 100%;
+}
+.title{
+  font-size: 20px;
+  font-weight: 800;
+}
+.subtitle{
+  font-size: 16px;
+}
+.p-sm{
+  padding: 12px;
+}
+.p-lg{
+  padding: 16px;
+}
+.p-xl{
+  padding: 20px;
+}
